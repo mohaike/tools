@@ -13,4 +13,5 @@ mLog "开始自动提交${work_path}"
 git add .
 git commit -m "更工具包"
 git push
+git status
 mLog "自动提交结束"
